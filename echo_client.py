@@ -3,7 +3,7 @@ import sys
 
 
 def client(msg, log_buffer=sys.stderr):
-    server_address = ('localhost', 20000)
+    server_address = ('localhost', 10000)
     # DONE: Replace the following line with your code which will instantiate
     #       a TCP socket with IPv4 Addressing, call the socket you make 'sock'
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM, socket.IPPROTO_TCP)
